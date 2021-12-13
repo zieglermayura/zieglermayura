@@ -1,0 +1,155 @@
+/* Style på alle sites */
+/* body */
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(197, 191, 191);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+/* header med logo og baggrundsfarve samt menulinje*/
+header{
+    background-color: rgb(197, 191, 191);
+    height: 200px;
+    text-align: center;
+    margin-top: -10px;
+}
+/* text-deko på menulinje */
+header nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 50px;
+    font-size: 20px;
+}
+
+/* hjem */
+main button{
+    background-color: rgba(197, 180, 180, 0.527);
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px;
+    border-color: none;
+    
+} 
+
+main {
+   text-align: center;
+   font-size: 50px;
+   background-image: url(baggrund.jpg);
+   color: whitesmoke;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 1200px;
+}
+main a{
+   background-color: none;
+   text-decoration: none;
+   color: whitesmoke ;
+   cursor: pointer;
+   font-size: 30px;
+   text-align: center;
+   
+}
+
+/* footer */
+footer{
+    background-color: rgb(197, 191, 191);;
+    height: 170px;
+    margin-bottom: -12px;
+    text-align: center;
+    text-decoration: none;
+}
+footer h6{
+    font-size: 20px;
+    margin: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: rgb(197, 191, 191);
+}
+
+/* skole projekter */
+.skoleprojekter{
+    
+    padding: -100px;
+}
+
+.skoleprojekter .flex-item:hover{
+    background: rgb(185, 172, 185);
+}
+.overskrift{
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.flex-item{
+    background-color: rgba(0, 116, 233, 0.76);
+    /* for at få mellemrum mellem de blå box */
+    margin: 60px;
+    /* padding for at gøre dem større */
+    padding: 50px;
+    /* width laver bredden på flex-item kortere fx*/
+    width: 300px;
+}
+/* private projekter */
+.privateprojekter{
+    padding: 10px;
+}
+
+.flex-item{
+    background-color: rgba(68, 85, 102, 0.76);
+    /* for at få mellemrum mellem de blå box */
+    margin: 60px;
+    /* padding for at gøre dem større */
+    padding: 50px;
+    /* width laver bredden på flex-item kortere fx*/
+    width: 300px;
+}
+
+/* om mig */
+main h3{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+main p{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding: 80px;
+}
+
+main .ommig{
+    background-color: rgba(131, 138, 138, 0.459);
+    font-size: 30px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+
+/* kontakt */
+
+.kontakt{
+    background-color: grey;
+    font-size: 30px;
+    text-align: left;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.inputfelt{
+    display: flex;
+    flex-direction: column;
+}
+
